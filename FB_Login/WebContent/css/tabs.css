@@ -1,0 +1,92 @@
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0;
+}
+#tabs {
+	font-size: 90%;
+	margin: 20px 0;
+}
+#tabs ul {
+	float: left;
+	
+	width: 240px;
+	padding-top: 4px;
+	margin-left:3px;
+}
+#tabs li {
+	margin-left: 8px;
+	list-style: none;
+}
+* html #tabs li {
+	display: inline;
+}
+#tabs li, #tabs li a {
+	float: left;
+}
+#tabs ul li.active {
+	border-top:3px grey solid;
+	border-left:2px grey solid;
+	background: #dfdfdf;
+}
+#tabs ul li.active a {
+	color: #333333;
+}
+#tabs div {
+	background:#003399;
+	clear: both;
+	padding: 15px;
+	min-height: 200px;
+}
+#tabs div h3 {
+	margin-bottom: 12px;
+}
+#tabs div p {
+	line-height: 150%;
+}
+#tabs ul li a {
+	text-decoration: none;
+	padding: 8px;
+	color:black;
+	font-weight: bold;
+}
+.thumbs {
+	float:left;
+	border:#000 solid 1px;
+	margin-bottom:20px;
+	margin-right:20px;
+}
+
+.fieldset{
+	
+	padding: 30px;
+	padding-top:30px;
+	padding-left:50px;
+	color:white;
+	margin-bottom:1px;
+	
+	}
+
+.text{
+	margin-top:5px;
+	}
+	
+.header{
+	height:100px;
+	border:1px solid; 
+	background-image:url('images/header-blue.jpg');
+	}
+	
+.submit{
+	background-image:url('images/submit.png') no-repeat;
+	background-color:Transparent;
+	width:90px;
+	height:30px;
+	color:white
+
+	}
+
+body{
+	background-color:black;
+	}
+</style>

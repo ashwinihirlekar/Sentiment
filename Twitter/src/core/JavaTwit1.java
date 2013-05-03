@@ -1,8 +1,8 @@
-package com;
+package core;
 
-import java.io.FileWriter;
 import java.io.IOException;
 
+import twitter4j.DirectMessage;
 import twitter4j.ResponseList;
 import twitter4j.Status;
 import twitter4j.Twitter;
@@ -11,11 +11,11 @@ import twitter4j.TwitterFactory;
 import twitter4j.http.AccessToken;
 
 public class JavaTwit1 {
-	private final static String CONSUMER_KEY = "ovWPxdqUXGc2xaQaMQ0cVg";
+	private final static String CONSUMER_KEY = "2s7odGLKFoV69wCnK77tqw";
 
 	private final static String CONSUMER_KEY_SECRET =
 
-	"Erkm5NEw6wMvc5Yg7jASUDvoV0QQgmNgeCJLjpqueo";
+	"G0EcwBDIV1Tavp3mJmcxhur5nYWb46uHpUnKHPjepeE";
 
 	public void start() throws TwitterException, IOException {
 
@@ -37,19 +37,15 @@ public class JavaTwit1 {
 
 		// end of difference
 
-		twitter.updateStatus("New update ...............");
+		twitter.updateStatus("All is well....status from my office for Demo");
 
 		System.out.println("Screen name of tejas = "+ twitter.getScreenName());
 		System.out.println("\nMy Timeline:");
 
-		FileWriter fwrite = new FileWriter("D:\\twitter.txt");
-		
-		
 		// I'm reading your timeline
 
 		ResponseList<Status> list = twitter.getHomeTimeline();
 
-		String str="";
 		for (Status each : list) {
 
 			System.out.println("Sent by: @" + each.getUser().getScreenName()
@@ -57,13 +53,6 @@ public class JavaTwit1 {
 			+ " - " + each.getUser().getName() + "\n" + each.getText()
 
 			+ "\n");
-			
-			
-			str=str+each.getText()+"\n";System.out.println("string "+str);
-			fwrite.write(str+"\r\n");
-			fwrite.write("\r\n");
-			
-			fwrite.close(); 
 
 		}
 
@@ -75,7 +64,7 @@ public class JavaTwit1 {
 
 		// Secret
 
-		return "PTww0AbuoF6C3nACU8yaPG7oSsZilm98Zi5fxcpos";
+		return "OzjK4d531RK8I6RRdd1gd213vB56DpafMHFjO4yYtQ";
 
 	}
 
@@ -83,7 +72,7 @@ public class JavaTwit1 {
 
 		// consider this is method to get your previously saved Access Token
 
-		return "388824237-Xa6TCVhVGp6O5MEcmrDANXHRqTJr0bIoQWEceMqB";
+		return "388824237-J6XEtU5sXqPWPjhV8lrxskMTB0Fd9CnfhtM3cskz";
 
 	}
 
@@ -92,6 +81,5 @@ public class JavaTwit1 {
 		new JavaTwit1().start();
 
 	}
-	
 
 }

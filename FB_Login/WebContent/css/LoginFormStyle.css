@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('../images/header-black.jpg');
+}
+
+.content {
+	background-image: url('../images/header-blue.jpg');
+	float: right;
+	margin-top: 200px;
+	margin-right: 200px;
+}
+
+.fieldset {
+	padding: 30px;
+	padding-top: 30px;
+	padding-left: 50px;
+	margin-bottom: 1px;
+	height: 200px;
+}
+
+.text {
+	vertical-align: middle;
+	float: left;
+	margin-top: 40px;
+}
+
+.header {
+	margin-top: 3px;
+	margin-left: 2px;
+	border: 1px solid;
+	background-image: url('../images/header-blue.jpg');
+}
+
+.text_label {
+	width: 90px;
+	min-height: 20px;
+	padding: 0px;
+	float: left;
+	padding-right: 10px;
+	margin-top: 40px;
+}
+
+.submit {
+	background: url('../images/black-submit.png') no-repeat;
+	background-color: transparent;
+	width: 60px;
+	height: 20px;
+	color: black;
+	background-size: 60px 20px;
+	border: none;
+	margin-top: 40px;
+}
+
+.btn_middle {
+	width: 100px;
+	margin-top: 15px;
+	margin-left: 100px;
+}
+
+#fb {
+	float: right;
+	padding-right: 197px;
+	margin-top: 2px;
+	height: 30px;
+}
+.new{
+	text-align:left;
+	padding-left:95%;
+}
+}

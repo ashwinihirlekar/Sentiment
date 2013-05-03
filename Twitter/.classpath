@@ -2,6 +2,14 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Downloads/twitter4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Downloads/esper-4.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Downloads/esper-4.9.0/esper/lib/antlr-runtime-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Downloads/esper-4.9.0/esper/lib/cglib-nodep-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Downloads/esper-4.9.0/esper/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Downloads/esper-4.9.0/esper/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Downloads/twitter4j-stream-2.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Downloads/New folder/twitter4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Downloads/commons-logging-1.1.1-src.zip"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Downloads/twitter4j-core-2.2.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
