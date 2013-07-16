@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/mongo-2.6.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/org.springframework.asm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/org.springframework.beans-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/org.springframework.context-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/org.springframework.core-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/slf4j-jdk14-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/spring-dao-2.0.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/spring-data-commons-core-1.1.0.M1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/spring-data-document-core-1.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/spring-data-mongodb-1.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/spring-expression-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/spring-tx-3.1.0.M1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/twitter4j-async-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/twitter4j-core-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/twitter4j-examples-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/twitter4j-media-support-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Desktop/jar/New folder/twitter4j-stream-3.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/All Software/Jars/mysql-connector-java-5.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/.m2/repository/org/twitter4j/twitter4j-core/2.2.4/twitter4j-core-2.2.4.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.twitter4j"/>
+			<attribute name="maven.artifactId" value="twitter4j-core"/>
+			<attribute name="maven.version" value="2.2.4"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
