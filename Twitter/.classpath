@@ -11,5 +11,25 @@
 	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Downloads/New folder/twitter4j.jar"/>
 	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Downloads/commons-logging-1.1.1-src.zip"/>
 	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/Downloads/twitter4j-core-2.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/.m2/repository/org/twitter4j/twitter4j-core/2.2.4/twitter4j-core-2.2.4.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.twitter4j"/>
+			<attribute name="maven.artifactId" value="twitter4j-core"/>
+			<attribute name="maven.version" value="2.2.4"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/298615.NMUMARL/.m2/repository/com/restfb/restfb/1.6.5/restfb-1.6.5.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.restfb"/>
+			<attribute name="maven.artifactId" value="restfb"/>
+			<attribute name="maven.version" value="1.6.5"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Ashwini_Backup/Java/Java projects/SP_Hibernate/WebContent/WEB-INF/lib/restfb-1.6.5.jar"/>
+	<classpathentry kind="lib" path="D:/Ashwini_Backup/Java/Java projects/Spring_Hibernate/WebContent/WEB-INF/lib/restfb-1.6.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

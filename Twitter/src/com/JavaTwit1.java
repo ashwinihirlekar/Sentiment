@@ -8,7 +8,7 @@ import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
-import twitter4j.http.AccessToken;
+import twitter4j.auth.AccessToken;
 
 public class JavaTwit1 {
 	private final static String CONSUMER_KEY = "ovWPxdqUXGc2xaQaMQ0cVg";
@@ -29,7 +29,7 @@ public class JavaTwit1 {
 
 		String accessTokenSecret = getSavedAccessTokenSecret();
 
-		AccessToken oathAccessToken = new AccessToken(accessToken,
+		twitter4j.auth.AccessToken oathAccessToken = new AccessToken(accessToken,
 
 		accessTokenSecret);
 

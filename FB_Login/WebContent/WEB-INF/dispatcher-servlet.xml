@@ -12,8 +12,8 @@
 
 	<context:component-scan base-package="core.FacebookController" />
 	<!-- To enable @RequestMapping process on type level and method level -->
-	<bean
-		class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" />
+	<!-- <bean
+		class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" /> -->
 	<bean
 		class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />
 

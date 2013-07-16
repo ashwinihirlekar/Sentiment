@@ -1,5 +1,8 @@
 package core;
 
+import FacebookJsonRestClient;
+import IFacebookRestClient;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -42,7 +45,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 				HttpSession session= request.getSession(true);
 				System.out.println("signin::  session id " + session.getId());
 				
-			
+				
 				
 				/* SocialAuthConfig config = SocialAuthConfig.getDefault();
 
@@ -79,14 +82,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 			throws Exception {
 		try {
 			response.setContentType("text/html"); 		
-			String responseString = IntegrationBase.readURLGET(ACCESS_TOKEN,
+			/*String responseString = IntegrationBase.readURLGET(ACCESS_TOKEN,
 					new String[] { "client_id", "redirect_uri", "code",
 							"client_secret" }, new String[] { CLIENT_ID,
 							REDIRECT_URI, code, APP_SECRET });
 			
 			
 			
-			response.getWriter().write(responseString);
+			response.getWriter().write(responseString);*/
 			
 			response.flushBuffer();
 		} catch (Exception e) {
